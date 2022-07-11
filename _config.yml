@@ -3,7 +3,6 @@ name: 'Is a ac'
 description: 'a personal blog website!'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: ''
 disqus: 'demowebsite'
 email: 'isaachuang.bc@icloud.com'
 mailchimp-list: ''
@@ -22,18 +21,10 @@ authors:
     isaac:
       name:           Isaac
       site:           https://isaachuan9.github.io
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Isaac, the author of Is a ac, the theme you're currently previewing. I hope you like it!"
+      avatar:         /assets/images/isaac_photo.jpg
+      bio:            "那轰然一响，我们也是星辰。"
       email:          isaachuang.bc@icloud.com
       twitter:        
-
-    # jane:
-    #   name:           Jane
-    #   site:           https://www.wowthemes.net
-    #   avatar:         /assets/images/avatar2.jpg
-    #   bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-    #   email:          fakemail@gmail.com
-    #   twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:

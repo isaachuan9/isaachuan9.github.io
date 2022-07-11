@@ -1,27 +1,59 @@
 <!--  Replace menu links here -->
 
 <li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/index.html">首页 | Home</a>
+    <a class="nav-link" href="{{site.url}}/index.html">
+        {% if page.name == 'index.html' %}
+            <strong>首页 | Home </strong>
+        {% else %}
+            首页 | Home
+        {% endif %} 
+    </a>
 </li>
 
 <li class="nav-item">
-    <a target="_blank" class="nav-link" href="{{site.baseurl}}/life.html">生活 | Life</a>
+    <a class="nav-link" href="{{site.url}}/life.html">
+        {% if page.name == 'life.html' %}
+            <strong>
+                生活 | Life
+            </strong>
+        {% else %}
+            生活 | Life
+        {% endif %} 
+    </a>
 </li>
 
 <li class="nav-item">
-    <a target="_blank" class="nav-link" href="{{site.baseurl}}/insight.html"> 洞见 | Insight</a>
+    <a class="nav-link" href="{{site.url}}/insight.html">
+        {% if page.name == 'insight.html' %}
+            <strong>
+                洞见 | Insight
+            </strong>
+        {% else %}
+            洞见 | Insight
+        {% endif %} 
+    </a>
 </li>
 
 <li class="nav-item">
-    <a target="_blank" class="nav-link" href="{{site.baseurl}}/categories.html">分类 | Categories</a>
+    <a class="nav-link" href="{{site.url}}/categories.html">
+        {% if page.name == 'categories.html' %}
+            <strong>
+                分类 | Categories
+            </strong>
+        {% else %}
+            分类 | Categories
+        {% endif %} 
+    </a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" href="{{site.baseurl}}/authors-list.html">关于 | About</a>
+    <a class="nav-link" href="{{site.url}}/authors-list.html">
+        {% if page.name == 'authors-list.html' %}
+            <strong>
+                作者 | Authors
+            </strong>
+        {% else %}
+            作者 | Authors
+        {% endif %} 
+    </a>
 </li>
-
-
-
-<!-- <li class="nav-item">
-<a target="_blank" class="nav-link" href="https://www.wowthemes.net/donate/">Buy me a coffee <i class="fa fa-coffee text-danger"></i></a>
-</li> -->
