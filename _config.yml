@@ -6,6 +6,7 @@ favicon: 'assets/images/favicon.ico'
 disqus: 'demowebsite'
 email: 'isaachuang.bc@icloud.com'
 mailchimp-list: ''
+url: 'isaachuang.xyz'
 
 include: ["_pages"]
 permalink: /:title/
