@@ -19,7 +19,7 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
+    isaac:
       name:           Isaac
       site:           https://isaachuan9.github.io
       avatar:         /assets/images/avatar1.jpg
