@@ -34,7 +34,7 @@ defaults:
     values:
       layout: post
       author: isaac
-      avatar: /assets/images/avatar1.jpg
+      avatar: /assets/images/isaac_photo.jpg
       
   # all pages
   - scope:
