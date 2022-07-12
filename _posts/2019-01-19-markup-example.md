@@ -2,7 +2,8 @@
 layout: post
 title:  "Markdown Example"
 author: jane
-categories: [ Jekyll, tutorial ]
+categories: [ life, tutorial ]
+city: HeYuan
 image: assets/images/6.jpg
 tags: featured
 ---

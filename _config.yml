@@ -29,7 +29,6 @@ authors:
  
 # Defaults
 defaults:
-
   # all posts
   - scope:
       path: "_posts"
@@ -43,7 +42,11 @@ defaults:
       path: "_pages"
     values:
       layout: page
-      
+
+cities:
+  - GuangZhou
+
+
 # Syntax
 markdown: kramdown
 highlighter: rouge
