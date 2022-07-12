@@ -11,7 +11,7 @@ permalink: "/cities.html"
       <!-- <h1 class="font-weight-bold title h6 text-uppercase mb-4">Categories</h1> -->
           
       {% for city in site.cities %} 
-      <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ city }}</span></h4>
+      <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ city | upcase }}</span></h4>
           
 
       {% for post in site.categories["cities"] %}

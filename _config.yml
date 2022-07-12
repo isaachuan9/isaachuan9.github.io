@@ -1,7 +1,7 @@
 # Site
 name: 'Is a ac'
 description: 'a personal blog website!'
-logo: 'assets/images/logo.png'
+logo: 'assets/images/web-logo.ico'
 favicon: 'assets/images/web-logo.ico'
 disqus: 'demowebsite'
 email: 'isaachuang.bc@icloud.com'
@@ -43,7 +43,7 @@ defaults:
       layout: page
 
 cities:
-  - GuangZhou
+  - guangzhou
 
 
 # Syntax

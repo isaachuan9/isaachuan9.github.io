@@ -652,9 +652,10 @@ footer {
     margin-top:10px;
 }
 article {
-	font-size:20px;
+	font-size:14px;
 	line-height:1.86;
     font-family:Lora;
+	/* color: rgba(0,0,0,0.5); */
 }
 .article-headline {
     font-family: Georgia,Times,"Times New Roman",serif;
@@ -682,13 +683,14 @@ article blockquote:before {
 	float:left;
 	line-height:1;
 }
-article:first-letter {
+/* article:first-letter {
 	float:left;
 	font-size:5em;
 	line-height:1;
 	margin:0 .2em 0 0;
 	vertical-align:top;
-}
+} */
+
 article h1,article h2,article h3,article h4,article h5,article h6,article .h1,article .h2,article .h3,article .h4,article .h5,article .h6 {
 	margin-bottom:2rem;
 	margin-top:2rem;
@@ -797,7 +799,8 @@ div.a2a_full_footer {display:none;}
 		 font-size: 1.1rem; 
 	 }
 	 article {
-		 font-size:1.24rem;
+		 font-size:1rem;
+		 /* color: rgba(0,0,0,0.); */
 	 }
 	 .topfirstimage {
 		 height:280px !Important;
