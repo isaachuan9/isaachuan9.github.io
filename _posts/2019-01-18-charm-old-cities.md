@@ -2,7 +2,7 @@
 layout: post
 title:  "Could we reinvent the charm of old cities"
 author: isaac
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll, tutorial, life ]
 image: assets/images/home.jpg
 tags: [sticky]
 ---
