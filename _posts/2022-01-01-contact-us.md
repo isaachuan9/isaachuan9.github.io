@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Improve your business with data"
+title:  "Improve Your Business with Data"
 author: isaac
 categories: [ jobs ]
 image: assets/images/home.jpg
