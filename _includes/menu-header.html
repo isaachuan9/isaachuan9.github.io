@@ -34,7 +34,20 @@
     </a>
 </li>
 
+
 <li class="nav-item">
+    <a class="nav-link" href="{{site.url}}/mini-talk.html">
+        {% if page.name == 'mini-talk.html' %}
+            <strong>
+                MINI | TALK
+            </strong>
+        {% else %}
+            MINI | TALK
+        {% endif %} 
+    </a>
+</li>
+
+<!-- <li class="nav-item">
     <a class="nav-link" href="{{site.url}}/categories.html">
         {% if page.name == 'categories.html' %}
             <strong>
@@ -44,9 +57,9 @@
             分类 | Categories
         {% endif %} 
     </a>
-</li>
+</li> -->
 
-<li class="nav-item">
+<!-- <li class="nav-item">
     <a class="nav-link" href="{{site.url}}/digital-nomad.html">
         {% if page.name == 'digital-nomad.html' %}
             <strong>
@@ -56,7 +69,7 @@
         数字游民 | Digital Nomad
         {% endif %} 
     </a>
-</li>
+</li> -->
 
 
 <li class="nav-item">

@@ -8,7 +8,7 @@ layout: default
 		<div class="col-md-12 col-lg-8">
 			<!-- Title -->
 			<h4 class="font-weight-bold">{{ page.title }}</h4>
-			<span class="text-muted d-block mt-1">written by {{ author.name }} · {{ page.date | date: '%b %d,
+			<span class="text-muted d-block mt-1">written by {{ author.name | default: page.author}} · {{ page.date | date: '%b %d,
 				%Y' }} · {% include meta-read-time.html %}</span>
 
 			<hr>
